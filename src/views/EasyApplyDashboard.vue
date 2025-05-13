@@ -115,7 +115,7 @@ import ApexChart from "vue3-apexcharts";
 import { useMotion } from '@vueuse/motion';
 import yaml from 'js-yaml';
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://easyapply-backend.onrender.com/";
 
 function groupByDate(logs, key = 'timestamp') {
   const grouped = {};
